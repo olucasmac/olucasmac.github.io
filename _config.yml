@@ -5,11 +5,10 @@ url: "http://m4c.me"
 
 # User settings
 username: lucasm4c
-user_description: hacker, ativista e pai.
 user_title: hacker, ativista e pai.
-email: lucasmac@protonmail.com
 twitter_username: _lucasm4c
-github_username:  lucasm4c
+github_username: lucasm4c
+email: lucasmac@protonmail.com
 
 # Build settings
 markdown: kramdown
@@ -29,12 +28,8 @@ compress_html:
 links:
   - title: Home
     url: /
-  - title: Series
-    url: /series
   - title: Tags
     url: /tags
-  - title: About Me
-    url: /about
-
+  
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
