@@ -9,8 +9,6 @@ categories:
 twitter_text:
 ---
 
-
-
 Um dia desses, tive uma discussão com um amigo. Expusemos nossas opiniões sobre o caso de um vazamento de fotos de algumas celebridades, atribuído a “hackers”. Eu não gostei do que falaram e iniciamos um debate (um tanto “caloroso” por sinal). Mas, após refletir, reler a conversa e analisar alguns pontos, constatei que assim como algumas pessoas se corrompem através da POLÍTICA, alguns hackers se corrompem em ter tanto PODER nas mãos. Tenho que concordar com ele: tentar negar o envolvimento de alguns de nós hackers em crimes é perda de tempo! Afinal, somos TODOS humanos e como tal, corruptíveis.
 
 Mas nem tudo está perdido!
