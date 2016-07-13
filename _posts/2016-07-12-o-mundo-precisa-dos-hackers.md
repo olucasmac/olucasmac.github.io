@@ -3,8 +3,10 @@ layout: post
 title: "O Mundo precisa dos hackers"
 date: 2016-07-12 16:18:59
 image: '/assets/img/'
-description:
-tags:
+description: O mundo precisa dos hackers
+tags: 
+- hacking
+- cultura hacker
 categories:
 twitter_text:
 ---
