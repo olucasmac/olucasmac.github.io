@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lucasm4c&#39;s blog</title>
+    <link>https://lucasm4c.me/en/</link>
+    <description>Recent content on lucasm4c&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Nov 2018 18:10:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://lucasm4c.me/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, world!</title>
+      <link>https://lucasm4c.me/en/article/hello-world/</link>
+      <pubDate>Tue, 20 Nov 2018 18:10:14 +0100</pubDate>
+      
+      <guid>https://lucasm4c.me/en/article/hello-world/</guid>
+      <description>I’m a &amp;ldquo;computer guy&amp;rdquo;. Haha!
+Sorry, but I had to start with this.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://lucasm4c.me/en/page/projects/</link>
+      <pubDate>Tue, 20 Nov 2018 13:18:45 +0100</pubDate>
+      
+      <guid>https://lucasm4c.me/en/page/projects/</guid>
+      <description>Under Construction.</description>
+    </item>
+    
+    <item>
+      <title>Carl Sagan about the universe</title>
+      <link>https://lucasm4c.me/en/quote/carl-sagan-universe/</link>
+      <pubDate>Tue, 20 Nov 2018 13:01:14 +0100</pubDate>
+      
+      <guid>https://lucasm4c.me/en/quote/carl-sagan-universe/</guid>
+      <description>“For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring.”</description>
+    </item>
+    
+    <item>
+      <title>About Lucas M4C</title>
+      <link>https://lucasm4c.me/en/page/about-lucasm4c/</link>
+      <pubDate>Wed, 01 Nov 2017 13:18:45 +0100</pubDate>
+      
+      <guid>https://lucasm4c.me/en/page/about-lucasm4c/</guid>
+      <description>Born and raised in the land of Cajuína (Teresina, Piauí), Leia&amp;rsquo;s father, married with Eliane and a geek since childhood. Active in the free software community in Piauí, president of APISoL and co-founder of Teresina Hacker Clube.
+Lover of gambiarras, robotics and movies. ;)</description>
+    </item>
+    
+  </channel>
+</rss>

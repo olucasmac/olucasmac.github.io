@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quotes on lucasm4c&#39;s blog</title>
+    <link>https://lucasm4c.me/en/quote/</link>
+    <description>Recent content in Quotes on lucasm4c&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Nov 2018 13:01:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://lucasm4c.me/en/quote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Carl Sagan about the universe</title>
+      <link>https://lucasm4c.me/en/quote/carl-sagan-universe/</link>
+      <pubDate>Tue, 20 Nov 2018 13:01:14 +0100</pubDate>
+      
+      <guid>https://lucasm4c.me/en/quote/carl-sagan-universe/</guid>
+      <description>“For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring.”</description>
+    </item>
+    
+  </channel>
+</rss>
