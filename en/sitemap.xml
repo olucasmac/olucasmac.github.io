@@ -33,21 +33,6 @@
   </url>
   
   <url>
-    <loc>https://lucasm4c.me/en/quote/carl-sagan-universe/</loc>
-    <lastmod>2018-11-20T13:01:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://lucasm4c.me/quote/carl-sagan-universe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lucasm4c.me/en/quote/carl-sagan-universe/"
-                />
-  </url>
-  
-  <url>
     <loc>https://lucasm4c.me/en/page/about-lucasm4c/</loc>
     <lastmod>2017-11-01T13:18:45+01:00</lastmod>
     <xhtml:link
@@ -110,22 +95,6 @@
   </url>
   
   <url>
-    <loc>https://lucasm4c.me/en/author/carl-sagan/</loc>
-    <lastmod>2018-11-20T13:01:14+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://lucasm4c.me/author/carl-sagan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lucasm4c.me/en/author/carl-sagan/"
-                />
-  </url>
-  
-  <url>
     <loc>https://lucasm4c.me/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -169,54 +138,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://lucasm4c.me/en/page/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://lucasm4c.me/en/quote/</loc>
-    <lastmod>2018-11-20T13:01:14+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://lucasm4c.me/quote/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lucasm4c.me/en/quote/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://lucasm4c.me/en/categories/quotes/</loc>
-    <lastmod>2018-11-20T13:01:14+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://lucasm4c.me/categories/quotes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lucasm4c.me/en/categories/quotes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://lucasm4c.me/en/tags/science/</loc>
-    <lastmod>2018-11-20T13:01:14+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://lucasm4c.me/tags/science/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lucasm4c.me/en/tags/science/"
                 />
   </url>
   

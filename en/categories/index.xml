@@ -9,14 +9,5 @@
 	<atom:link href="https://lucasm4c.me/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Quotes</title>
-      <link>https://lucasm4c.me/en/categories/quotes/</link>
-      <pubDate>Tue, 20 Nov 2018 13:01:14 +0100</pubDate>
-      
-      <guid>https://lucasm4c.me/en/categories/quotes/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
