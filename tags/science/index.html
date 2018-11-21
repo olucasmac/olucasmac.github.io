@@ -265,7 +265,7 @@
       [
         {
           
-            source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 10 }),
+            source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 5, filters: 'language: pt-br' }),
           
           displayKey: function(suggestion) {
             return suggestion.title || suggestion.author
