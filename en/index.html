@@ -54,11 +54,6 @@
         </ul>
 
         
-            <div id="search-box" class="search">
-                <i class="fa fa-search"></i>
-                <input id="search" type="text" placeholder="Search ...">
-            </div>
-        
     </div>
 </nav>
 
@@ -334,48 +329,6 @@
         
             
         
-
-        
-            <script>
-    var client = algoliasearch("U3JOY82SEA", "f507fdb175de411b29ef9c491f658693");
-    var index = client.initIndex("lucasm4c-blog");
-
-    $('#search').autocomplete({ hint: false, autoselect: true, debug: false },
-      [
-        {
-          
-            source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 5, filters: 'language: en' }),
-          
-          displayKey: function(suggestion) {
-            return suggestion.title || suggestion.author
-          },
-          templates: {
-            suggestion: function(suggestion) {
-                return "<span class='entry " + suggestion.type + "'>"
-                      + "<span class='title'>" + suggestion.title + "</span>"
-                      + "<span class='fa fa-fw " + suggestion.iconClass + "'></span>"
-                  + "</span>"
-                ;
-            },
-            empty: function() {
-              return "<span class='empty'>Nothing found.</span>"
-            },
-            footer: function() {
-              return '<div class="branding">Powered by <img src="https:\/\/lucasm4c.me\/dist\/algolia-logo-light.svg" /></div>'
-            }
-
-          },
-        }
-      ])
-      .on('autocomplete:selected', function(event, suggestion, dataset) {
-        window.location = (suggestion.url);
-      })
-      .keypress(function (event, suggestion) {
-        if (event.which == 13) {
-          window.location = (suggestion.url);
-        }
-      });
-</script>
 
         
 
