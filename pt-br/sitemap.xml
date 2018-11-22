@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lucasm4c.me/article/o-mundo-precisa-dos-hackers/</loc>
+    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucasm4c.me/article/hello-world/</loc>
     <lastmod>2018-11-20T18:10:14+01:00</lastmod>
     <xhtml:link
@@ -49,13 +54,13 @@
   
   <url>
     <loc>https://lucasm4c.me/categories/article/</loc>
-    <lastmod>2018-11-20T18:10:14+01:00</lastmod>
+    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucasm4c.me/article/</loc>
-    <lastmod>2018-11-20T18:10:14+01:00</lastmod>
+    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -86,7 +91,7 @@
   
   <url>
     <loc>https://lucasm4c.me/tags/blog/</loc>
-    <lastmod>2018-11-20T18:10:14+01:00</lastmod>
+    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -102,7 +107,7 @@
   
   <url>
     <loc>https://lucasm4c.me/categories/</loc>
-    <lastmod>2018-11-20T18:10:14+01:00</lastmod>
+    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -118,7 +123,7 @@
   
   <url>
     <loc>https://lucasm4c.me/author/lucas-m.-a.-costa/</loc>
-    <lastmod>2018-11-20T18:10:14+01:00</lastmod>
+    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -150,7 +155,7 @@
   
   <url>
     <loc>https://lucasm4c.me/tags/</loc>
-    <lastmod>2018-11-20T18:10:14+01:00</lastmod>
+    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -166,7 +171,7 @@
   
   <url>
     <loc>https://lucasm4c.me/</loc>
-    <lastmod>2018-11-20T18:10:14+01:00</lastmod>
+    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
