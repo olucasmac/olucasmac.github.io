@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on lucasm4c&#39;s blog</title>
+    <link>https://lucasm4c.me/tags/docker/</link>
+    <description>Recent content in Docker on lucasm4c&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 24 Nov 2018 09:31:27 +0100</lastBuildDate>
+    
+	<atom:link href="https://lucasm4c.me/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Como deletar arquivos de log dos containers docker</title>
+      <link>https://lucasm4c.me/code/delete-docker-containers-log-files/</link>
+      <pubDate>Sat, 24 Nov 2018 09:31:27 +0100</pubDate>
+      
+      <guid>https://lucasm4c.me/code/delete-docker-containers-log-files/</guid>
+      <description>Localizar os arquivos de log Abra o terminal e execute o comando:
+:~$ docker inspect --format=&#39;{{.LogPath}}&#39; $(docker ps -a -q)  O retorno, deve ser algo como isso:
+/var/lib/docker/containers/d7707cd1cf0e955f72958a60d7b17c79b3a812970bce3a625f6179312d09cd46/d7707cd1cf0e955f72958a60d7b17c79b3a812970bce3a625f6179312d09cd46-json.log /var/lib/docker/containers/48bd6a8d1bb4354bffbc61ab2b2b0127778d1c84453f6e6cdcb63be2d9719709/48bd6a8d1bb4354bffbc61ab2b2b0127778d1c84453f6e6cdcb63be2d9719709-json.log /var/lib/docker/containers/fb1f74d8a4ff74160876efc13601211805e692ebfb3e5e03f98a481206cfde30/fb1f74d8a4ff74160876efc13601211805e692ebfb3e5e03f98a481206cfde30-json.log /var/lib/docker/containers/d644cd46300758316c6d23fc0e60e744e0b63a2545cdef166fc66236b770d14b/d644cd46300758316c6d23fc0e60e744e0b63a2545cdef166fc66236b770d14b-json.log /var/lib/docker/containers/171ead11c41a4427b34c142808b06f4d055519025676a4154673613442cac638/171ead11c41a4427b34c142808b06f4d055519025676a4154673613442cac638-json.log  Procure pelo caminho dos arquivos, no meu caso estão em /var/lib/docker/containers/.
+Deletar os arquivos de log  AVISO:
+O caminho para o arquivo de log deve ser /var/lib/docker/containers/, se não for, altere-o no comando abaixo.</description>
+    </item>
+    
+  </channel>
+</rss>

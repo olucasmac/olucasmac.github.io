@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lucasm4c.me/code/delete-docker-containers-log-files/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/code/delete-docker-containers-log-files/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/code/delete-docker-containers-log-files/"
+                />
+  </url>
+  
+  <url>
     <loc>https://lucasm4c.me/article/o-mundo-precisa-dos-hackers/</loc>
     <lastmod>2018-11-21T22:31:49-03:00</lastmod>
   </url>
@@ -122,8 +137,88 @@
   </url>
   
   <url>
+    <loc>https://lucasm4c.me/categories/code/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/categories/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/categories/code/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lucasm4c.me/code/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/code/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lucasm4c.me/tags/devops/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/tags/devops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/tags/devops/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lucasm4c.me/tags/docker/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/tags/docker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/tags/docker/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lucasm4c.me/tags/linux/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/tags/linux/"
+                />
+  </url>
+  
+  <url>
     <loc>https://lucasm4c.me/author/lucas-m.-a.-costa/</loc>
-    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -154,6 +249,22 @@
   </url>
   
   <url>
+    <loc>https://lucasm4c.me/tags/sysadmin/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/tags/sysadmin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/tags/sysadmin/"
+                />
+  </url>
+  
+  <url>
     <loc>https://lucasm4c.me/tags/</loc>
     <lastmod>2018-11-21T22:31:49-03:00</lastmod>
     <priority>0</priority>
@@ -170,8 +281,40 @@
   </url>
   
   <url>
+    <loc>https://lucasm4c.me/tags/tips/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/tags/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/tags/tips/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lucasm4c.me/categories/tutorials/</loc>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lucasm4c.me/en/categories/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://lucasm4c.me/categories/tutorials/"
+                />
+  </url>
+  
+  <url>
     <loc>https://lucasm4c.me/</loc>
-    <lastmod>2018-11-21T22:31:49-03:00</lastmod>
+    <lastmod>2018-11-24T09:31:27+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
