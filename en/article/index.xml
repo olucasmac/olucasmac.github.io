@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on lucasm4c&#39;s blog</title>
-    <link>https://lucasm4c.me/en/article/</link>
+    <link>https://lucasmac.com/en/article/</link>
     <description>Recent content in Articles on lucasm4c&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 20 Nov 2018 18:10:14 +0100</lastBuildDate>
     
-	<atom:link href="https://lucasm4c.me/en/article/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lucasmac.com/en/article/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello, world!</title>
-      <link>https://lucasm4c.me/en/article/hello-world/</link>
+      <link>https://lucasmac.com/en/article/hello-world/</link>
       <pubDate>Tue, 20 Nov 2018 18:10:14 +0100</pubDate>
       
-      <guid>https://lucasm4c.me/en/article/hello-world/</guid>
+      <guid>https://lucasmac.com/en/article/hello-world/</guid>
       <description>I’m a &amp;ldquo;computer guy&amp;rdquo;. Haha!
 Sorry, but I had to start with this.</description>
     </item>

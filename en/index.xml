@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lucasm4c&#39;s blog</title>
-    <link>https://lucasm4c.me/en/</link>
+    <link>https://lucasmac.com/en/</link>
     <description>Recent content on lucasm4c&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 24 Nov 2018 09:31:27 +0100</lastBuildDate>
     
-	<atom:link href="https://lucasm4c.me/en/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lucasmac.com/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to Delete Docker Container Log Files</title>
-      <link>https://lucasm4c.me/en/code/delete-docker-containers-log-files/</link>
+      <link>https://lucasmac.com/en/code/delete-docker-containers-log-files/</link>
       <pubDate>Sat, 24 Nov 2018 09:31:27 +0100</pubDate>
       
-      <guid>https://lucasm4c.me/en/code/delete-docker-containers-log-files/</guid>
+      <guid>https://lucasmac.com/en/code/delete-docker-containers-log-files/</guid>
       <description>Get Docker File Location Open a terminal and run the following:
 :~$ docker inspect --format=&#39;{{.LogPath}}&#39; $(docker ps -a -q)  A similar result will be displayed:
 /var/lib/docker/containers/d7707cd1cf0e955f72958a60d7b17c79b3a812970bce3a625f6179312d09cd46/d7707cd1cf0e955f72958a60d7b17c79b3a812970bce3a625f6179312d09cd46-json.log /var/lib/docker/containers/48bd6a8d1bb4354bffbc61ab2b2b0127778d1c84453f6e6cdcb63be2d9719709/48bd6a8d1bb4354bffbc61ab2b2b0127778d1c84453f6e6cdcb63be2d9719709-json.log /var/lib/docker/containers/fb1f74d8a4ff74160876efc13601211805e692ebfb3e5e03f98a481206cfde30/fb1f74d8a4ff74160876efc13601211805e692ebfb3e5e03f98a481206cfde30-json.log /var/lib/docker/containers/d644cd46300758316c6d23fc0e60e744e0b63a2545cdef166fc66236b770d14b/d644cd46300758316c6d23fc0e60e744e0b63a2545cdef166fc66236b770d14b-json.log /var/lib/docker/containers/171ead11c41a4427b34c142808b06f4d055519025676a4154673613442cac638/171ead11c41a4427b34c142808b06f4d055519025676a4154673613442cac638-json.log  Find the file path, mine is /var/lib/docker/containers/.
@@ -27,29 +27,29 @@ Run:
     
     <item>
       <title>Hello, world!</title>
-      <link>https://lucasm4c.me/en/article/hello-world/</link>
+      <link>https://lucasmac.com/en/article/hello-world/</link>
       <pubDate>Tue, 20 Nov 2018 18:10:14 +0100</pubDate>
       
-      <guid>https://lucasm4c.me/en/article/hello-world/</guid>
+      <guid>https://lucasmac.com/en/article/hello-world/</guid>
       <description>I’m a &amp;ldquo;computer guy&amp;rdquo;. Haha!
 Sorry, but I had to start with this.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://lucasm4c.me/en/page/projects/</link>
+      <link>https://lucasmac.com/en/page/projects/</link>
       <pubDate>Tue, 20 Nov 2018 13:18:45 +0100</pubDate>
       
-      <guid>https://lucasm4c.me/en/page/projects/</guid>
+      <guid>https://lucasmac.com/en/page/projects/</guid>
       <description>Under Construction.</description>
     </item>
     
     <item>
       <title>About Lucas M4C</title>
-      <link>https://lucasm4c.me/en/page/about-lucasm4c/</link>
+      <link>https://lucasmac.com/en/page/about-lucasm4c/</link>
       <pubDate>Wed, 01 Nov 2017 13:18:45 +0100</pubDate>
       
-      <guid>https://lucasm4c.me/en/page/about-lucasm4c/</guid>
+      <guid>https://lucasmac.com/en/page/about-lucasm4c/</guid>
       <description>Born and raised in the land of Cajuína (Teresina, Piauí), Leia&amp;rsquo;s father, married with Eliane and a geek since childhood. Active in the free software community in Piauí, president of APISoL and co-founder of Teresina Hacker Clube.
 Lover of gambiarras, robotics and movies. ;)</description>
     </item>

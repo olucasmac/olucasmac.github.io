@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on lucasm4c&#39;s blog</title>
-    <link>https://lucasm4c.me/en/categories/</link>
+    <link>https://lucasmac.com/en/categories/</link>
     <description>Recent content in Categories on lucasm4c&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://lucasm4c.me/en/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lucasmac.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code</title>
-      <link>https://lucasm4c.me/en/categories/code/</link>
+      <link>https://lucasmac.com/en/categories/code/</link>
       <pubDate>Sat, 24 Nov 2018 09:31:27 +0100</pubDate>
       
-      <guid>https://lucasm4c.me/en/categories/code/</guid>
+      <guid>https://lucasmac.com/en/categories/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorials</title>
-      <link>https://lucasm4c.me/en/categories/tutorials/</link>
+      <link>https://lucasmac.com/en/categories/tutorials/</link>
       <pubDate>Sat, 24 Nov 2018 09:31:27 +0100</pubDate>
       
-      <guid>https://lucasm4c.me/en/categories/tutorials/</guid>
+      <guid>https://lucasmac.com/en/categories/tutorials/</guid>
       <description></description>
     </item>
     
