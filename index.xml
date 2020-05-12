@@ -1,64 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>lucasmac&#39;s blog</title>
+    <title>Lucas M.A.C.</title>
     <link>https://lucasmac.com/</link>
-    <description>Recent content on lucasmac&#39;s blog</description>
+    <description>Recent content on Lucas M.A.C.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Nov 2018 09:31:27 +0100</lastBuildDate>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 12 May 2020 12:20:12 -0300</lastBuildDate>
     
 	<atom:link href="https://lucasmac.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Como deletar arquivos de log dos containers docker</title>
-      <link>https://lucasmac.com/code/delete-docker-containers-log-files/</link>
-      <pubDate>Sat, 24 Nov 2018 09:31:27 +0100</pubDate>
+      <title>About</title>
+      <link>https://lucasmac.com/about/</link>
+      <pubDate>Tue, 12 May 2020 12:20:12 -0300</pubDate>
       
-      <guid>https://lucasmac.com/code/delete-docker-containers-log-files/</guid>
-      <description>Localizar os arquivos de log Abra o terminal e execute o comando:
-:~$ docker inspect --format=&#39;{{.LogPath}}&#39; $(docker ps -a -q)  O retorno, deve ser algo como isso:
-/var/lib/docker/containers/d7707cd1cf0e955f72958a60d7b17c79b3a812970bce3a625f6179312d09cd46/d7707cd1cf0e955f72958a60d7b17c79b3a812970bce3a625f6179312d09cd46-json.log /var/lib/docker/containers/48bd6a8d1bb4354bffbc61ab2b2b0127778d1c84453f6e6cdcb63be2d9719709/48bd6a8d1bb4354bffbc61ab2b2b0127778d1c84453f6e6cdcb63be2d9719709-json.log /var/lib/docker/containers/fb1f74d8a4ff74160876efc13601211805e692ebfb3e5e03f98a481206cfde30/fb1f74d8a4ff74160876efc13601211805e692ebfb3e5e03f98a481206cfde30-json.log /var/lib/docker/containers/d644cd46300758316c6d23fc0e60e744e0b63a2545cdef166fc66236b770d14b/d644cd46300758316c6d23fc0e60e744e0b63a2545cdef166fc66236b770d14b-json.log /var/lib/docker/containers/171ead11c41a4427b34c142808b06f4d055519025676a4154673613442cac638/171ead11c41a4427b34c142808b06f4d055519025676a4154673613442cac638-json.log  Procure pelo caminho dos arquivos, no meu caso estão em /var/lib/docker/containers/.
-Deletar os arquivos de log  AVISO:
-O caminho para o arquivo de log deve ser /var/lib/docker/containers/, se não for, altere-o no comando abaixo.</description>
+      <guid>https://lucasmac.com/about/</guid>
+      <description>Born and raised in the land of Cajuína (Teresina, Piauí, Brasil), Leia&amp;rsquo;s father, Eliane&amp;rsquo;s husband and a geek since childhood. Activist, ex-president of APISoL and co-founder of Teresina Hacker Clube.
+Currently, I live in (Belo Horizonte, Minas Gerais, Brasil) and work as a DevOps/SR Engineer at 12min, a startup that summarizes best sellers, in audio and text, that can be read in up to 12 minutes.
+Lover of gambiarras, robotics and movies.</description>
     </item>
     
     <item>
-      <title>O mundo precisa dos hackers?</title>
-      <link>https://lucasmac.com/article/o-mundo-precisa-dos-hackers/</link>
-      <pubDate>Wed, 21 Nov 2018 22:31:49 -0300</pubDate>
+      <title>print(&#34;Hello, World!&#34;)</title>
+      <link>https://lucasmac.com/posts/print-hello-world/</link>
+      <pubDate>Tue, 12 May 2020 12:15:40 -0300</pubDate>
       
-      <guid>https://lucasmac.com/article/o-mundo-precisa-dos-hackers/</guid>
-      <description>&lt;p&gt;Há alguns dias, li sobre um cara chamado &lt;a href=&#34;https://en.wikipedia.org/wiki/Barnaby_Jack&#34;&gt;Barnaby Jack&lt;/a&gt;. Com seu “SUPER PODER” ele conseguiu, literalmente, fazer com que &lt;a href=&#34;https://www.youtube.com/watch?v=qwMuMSPW3bU&#34;&gt;caixas eletrônicos cuspissem dinheiro nos seus pés&lt;/a&gt;. Ele facilmente poderia utilizar esse conhecimento para ficar rico, não é mesmo? Bom, mas não foi isso que ele fez, pois, preferiu revelar ao mundo suas pesquisas, documentar o problema e ajudar a encontrar a solução. Barnaby acreditava que nós, hackers, temos que mostrar a ameaça para então provocar a solução! Compartilho desse sentimento também.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hello, World!</title>
-      <link>https://lucasmac.com/article/hello-world/</link>
-      <pubDate>Tue, 20 Nov 2018 18:10:14 +0100</pubDate>
-      
-      <guid>https://lucasmac.com/article/hello-world/</guid>
-      <description>Eu sou um &amp;ldquo;cara do computador&amp;rdquo;. Haha!
-Desculpe, mas eu tive que começar com isso.</description>
-    </item>
-    
-    <item>
-      <title>Projetos</title>
-      <link>https://lucasmac.com/page/projects/</link>
-      <pubDate>Tue, 20 Nov 2018 13:18:45 +0100</pubDate>
-      
-      <guid>https://lucasmac.com/page/projects/</guid>
-      <description>Em construção.</description>
-    </item>
-    
-    <item>
-      <title>Sobre Lucas M4C</title>
-      <link>https://lucasmac.com/page/about-lucasmac/</link>
-      <pubDate>Tue, 20 Nov 2018 13:18:45 +0100</pubDate>
-      
-      <guid>https://lucasmac.com/page/about-lucasmac/</guid>
-      <description>Nascido e criado na terra da Cajuína (Teresina, Piauí), pai da Léia, casado com a Eliane e geek desde criancinha. Atuante na comunidade de software livre piauiense, ex-presidente da APISoL (Associação Piauiense de Software Livre) e co-fundador do Teresina Hacker Clube.
-Amante de gambiarras, robótica e filmes. ;)</description>
+      <guid>https://lucasmac.com/posts/print-hello-world/</guid>
+      <description>I’m a “computer guy”. Haha!
+Sorry, but I had to start with this.</description>
     </item>
     
   </channel>
