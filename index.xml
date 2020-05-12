@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lucas M.A.C.</title>
-    <link>https://lucasmac.com/</link>
+    <link>https://olucasmac.github.io/</link>
     <description>Recent content on Lucas M.A.C.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 12 May 2020 12:20:12 -0300</lastBuildDate>
     
-	<atom:link href="https://lucasmac.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://olucasmac.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://lucasmac.com/about/</link>
+      <link>https://olucasmac.github.io/about/</link>
       <pubDate>Tue, 12 May 2020 12:20:12 -0300</pubDate>
       
-      <guid>https://lucasmac.com/about/</guid>
+      <guid>https://olucasmac.github.io/about/</guid>
       <description>Born and raised in the land of Cajuína (Teresina, Piauí, Brasil), Leia&amp;rsquo;s father, Eliane&amp;rsquo;s husband and a geek since childhood. Activist, ex-president of APISoL and co-founder of Teresina Hacker Clube.
 Currently, I live in (Belo Horizonte, Minas Gerais, Brasil) and work as a DevOps/SR Engineer at 12min, a startup that summarizes best sellers, in audio and text, that can be read in up to 12 minutes.
 Lover of gambiarras, robotics and movies.</description>
@@ -25,10 +25,10 @@ Lover of gambiarras, robotics and movies.</description>
     
     <item>
       <title>print(&#34;Hello, World!&#34;)</title>
-      <link>https://lucasmac.com/posts/print-hello-world/</link>
+      <link>https://olucasmac.github.io/posts/print-hello-world/</link>
       <pubDate>Tue, 12 May 2020 12:15:40 -0300</pubDate>
       
-      <guid>https://lucasmac.com/posts/print-hello-world/</guid>
+      <guid>https://olucasmac.github.io/posts/print-hello-world/</guid>
       <description>I’m a “computer guy”. Haha!
 Sorry, but I had to start with this.</description>
     </item>
