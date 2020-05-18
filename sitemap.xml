@@ -3,27 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lucasmac.com/about/</loc>
+    <loc>https://example.com/about/</loc>
     <lastmod>2020-05-12T12:20:12-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucasmac.com/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2020-05-12T12:20:12-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucasmac.com/posts/</loc>
+    <loc>https://example.com/posts/</loc>
     <lastmod>2020-05-12T12:15:40-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucasmac.com/posts/print-hello-world/</loc>
+    <loc>https://example.com/posts/2020/05/printhello-world/</loc>
     <lastmod>2020-05-12T12:15:40-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucasmac.com/tags/</loc>
+    <loc>https://example.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
   </url>
   
 </urlset>
