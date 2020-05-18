@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lucas M.A.C.</title>
-    <link>https://example.com/</link>
+    <link>https://lucasmac.com/</link>
     <description>Recent content on Lucas M.A.C.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 12 May 2020 12:20:12 -0300</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lucasmac.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://lucasmac.com/about/</link>
       <pubDate>Tue, 12 May 2020 12:20:12 -0300</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://lucasmac.com/about/</guid>
       <description>Born and raised in the land of Cajuína (Teresina, Piauí, Brasil), Leia&amp;rsquo;s father, Eliane&amp;rsquo;s husband and a geek since childhood. Activist, ex-president of APISoL and co-founder of Teresina Hacker Clube.
 Currently, I live in (Belo Horizonte, Minas Gerais, Brasil) and work as a DevOps/SR Engineer at 12min, a startup that summarizes best sellers, in audio and text, that can be read in up to 12 minutes.
 Lover of gambiarras, robotics and movies.</description>
@@ -25,10 +25,10 @@ Lover of gambiarras, robotics and movies.</description>
     
     <item>
       <title>print(&#34;Hello, World!&#34;)</title>
-      <link>https://example.com/posts/2020/05/printhello-world/</link>
+      <link>https://lucasmac.com/posts/2020/05/printhello-world/</link>
       <pubDate>Tue, 12 May 2020 12:15:40 -0300</pubDate>
       
-      <guid>https://example.com/posts/2020/05/printhello-world/</guid>
+      <guid>https://lucasmac.com/posts/2020/05/printhello-world/</guid>
       <description>I’m a “computer guy”. Haha!
 Sorry, but I had to start with this.</description>
     </item>

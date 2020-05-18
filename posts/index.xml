@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Lucas M.A.C.</title>
-        <link>https://example.com/posts/</link>
+        <link>https://lucasmac.com/posts/</link>
         <description>Recent content in Posts on Lucas M.A.C.</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Tue, 12 May 2020 12:15:40 -0300</lastBuildDate>
-        <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://lucasmac.com/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>print(&#34;Hello, World!&#34;)</title>
-            <link>https://example.com/posts/2020/05/printhello-world/</link>
+            <link>https://lucasmac.com/posts/2020/05/printhello-world/</link>
             <pubDate>Tue, 12 May 2020 12:15:40 -0300</pubDate>
             
-            <guid>https://example.com/posts/2020/05/printhello-world/</guid>
+            <guid>https://lucasmac.com/posts/2020/05/printhello-world/</guid>
             <description>I’m a “computer guy”. Haha!
 Sorry, but I had to start with this.</description>
             <content type="html"><![CDATA[<p>I’m a “computer guy”. Haha!</p>
