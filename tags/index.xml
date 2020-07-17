@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Lucas M.A.C.</title>
-    <link>https://lucasmac.com/tags/</link>
-    <description>Recent content in Tags on Lucas M.A.C.</description>
+    <title>Tags on It&#39;s a me, Lucas M.A.C.</title>
+    <link>https://blog.lucasmac.com/tags/</link>
+    <description>Recent content in Tags on It&#39;s a me, Lucas M.A.C.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 01 Jul 2020 01:23:55 -0300</lastBuildDate>
     
-	<atom:link href="https://lucasmac.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.lucasmac.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>devops</title>
+      <link>https://blog.lucasmac.com/tags/devops/</link>
+      <pubDate>Wed, 01 Jul 2020 01:23:55 -0300</pubDate>
+      
+      <guid>https://blog.lucasmac.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sre</title>
+      <link>https://blog.lucasmac.com/tags/sre/</link>
+      <pubDate>Wed, 01 Jul 2020 01:23:55 -0300</pubDate>
+      
+      <guid>https://blog.lucasmac.com/tags/sre/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="olucasmac ">
+<meta name="description" content="▶ Saving time Kubectl autocomplete BASH:
+source &amp;lt;(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first. echo &amp;quot;source &amp;lt;(kubectl completion bash)&amp;quot; &amp;gt;&amp;gt; ~/.bashrc # add autocomplete permanently to your bash shell. ZSH:
+source &amp;lt;(kubectl completion zsh) # setup autocomplete in zsh into the current shell echo &amp;quot;[[ $commands[kubectl] ]] &amp;amp;&amp;amp; source &amp;lt;(kubectl completion zsh)&amp;quot; &amp;gt;&amp;gt; ~/.zshrc # add autocomplete permanently to your zsh shell Kubectl aliases Put aliases in ~/." />
+<meta name="keywords" content="science robotics arduino devops gcp cloud, devops, sre" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://blog.lucasmac.com/posts/2020/07/kubernetes-tricks-and-tips/" />
+
+
+    <title>
+        
+            Kubernetes Tricks and Tips :: It&#39;s a me, Lucas M.A.C.  — It&#39;s a me, Lucas M.A.C.
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://blog.lucasmac.com/main.d16fdbef96fa9bf38e71a2bfc107670ca1e74be4434f58a5aa0f568c4f9adbc2.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://blog.lucasmac.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://blog.lucasmac.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://blog.lucasmac.com/favicon-16x16.png">
+    <link rel="manifest" href="https://blog.lucasmac.com/site.webmanifest">
+    <link rel="mask-icon" href="https://blog.lucasmac.com/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://blog.lucasmac.com/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Kubernetes Tricks and Tips">
+<meta itemprop="description" content="▶ Saving time Kubectl autocomplete BASH:
+source &lt;(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first. echo &quot;source &lt;(kubectl completion bash)&quot; &gt;&gt; ~/.bashrc # add autocomplete permanently to your bash shell. ZSH:
+source &lt;(kubectl completion zsh) # setup autocomplete in zsh into the current shell echo &quot;[[ $commands[kubectl] ]] &amp;&amp; source &lt;(kubectl completion zsh)&quot; &gt;&gt; ~/.zshrc # add autocomplete permanently to your zsh shell Kubectl aliases Put aliases in ~/.">
+<meta itemprop="datePublished" content="2020-07-01T01:23:55-03:00" />
+<meta itemprop="dateModified" content="2020-07-01T01:23:55-03:00" />
+<meta itemprop="wordCount" content="191">
+<meta itemprop="image" content="https://blog.lucasmac.com/android-chrome-150x150.png"/>
+
+
+
+<meta itemprop="keywords" content="devops,sre," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://blog.lucasmac.com/android-chrome-150x150.png"/>
+
+<meta name="twitter:title" content="Kubernetes Tricks and Tips"/>
+<meta name="twitter:description" content="▶ Saving time Kubectl autocomplete BASH:
+source &lt;(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first. echo &quot;source &lt;(kubectl completion bash)&quot; &gt;&gt; ~/.bashrc # add autocomplete permanently to your bash shell. ZSH:
+source &lt;(kubectl completion zsh) # setup autocomplete in zsh into the current shell echo &quot;[[ $commands[kubectl] ]] &amp;&amp; source &lt;(kubectl completion zsh)&quot; &gt;&gt; ~/.zshrc # add autocomplete permanently to your zsh shell Kubectl aliases Put aliases in ~/."/>
+
+
+
+    <meta property="og:title" content="Kubernetes Tricks and Tips" />
+<meta property="og:description" content="▶ Saving time Kubectl autocomplete BASH:
+source &lt;(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first. echo &quot;source &lt;(kubectl completion bash)&quot; &gt;&gt; ~/.bashrc # add autocomplete permanently to your bash shell. ZSH:
+source &lt;(kubectl completion zsh) # setup autocomplete in zsh into the current shell echo &quot;[[ $commands[kubectl] ]] &amp;&amp; source &lt;(kubectl completion zsh)&quot; &gt;&gt; ~/.zshrc # add autocomplete permanently to your zsh shell Kubectl aliases Put aliases in ~/." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.lucasmac.com/posts/2020/07/kubernetes-tricks-and-tips/" />
+<meta property="og:image" content="https://blog.lucasmac.com/android-chrome-150x150.png"/>
+<meta property="article:published_time" content="2020-07-01T01:23:55-03:00" />
+<meta property="article:modified_time" content="2020-07-01T01:23:55-03:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-07-01 01:23:55 -0300 -03" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://blog.lucasmac.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://blog.lucasmac.com/about/">About</a></li><li><a href="https://blog.lucasmac.com/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>One minute
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="https://blog.lucasmac.com/posts/2020/07/kubernetes-tricks-and-tips/">Kubernetes Tricks and Tips</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <h2 id="-saving-time">▶ Saving time</h2>
+<h3 id="kubectl-autocomplete">Kubectl autocomplete</h3>
+<p>BASH:</p>
+<pre><code>source &lt;(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
+echo &quot;source &lt;(kubectl completion bash)&quot; &gt;&gt; ~/.bashrc # add autocomplete permanently to your bash shell.
+</code></pre><p>ZSH:</p>
+<pre><code>source &lt;(kubectl completion zsh)  # setup autocomplete in zsh into the current shell
+echo &quot;[[ $commands[kubectl] ]] &amp;&amp; source &lt;(kubectl completion zsh)&quot; &gt;&gt; ~/.zshrc # add autocomplete permanently to your zsh shell
+</code></pre><h3 id="kubectl-aliases">Kubectl aliases</h3>
+<p>Put aliases in <code>~/.zshrc</code> or <code>~/.bashrc</code>:</p>
+<pre><code>alias k=&quot;kubectl&quot;
+alias kp=&quot;kubectl get pods&quot;
+alias kd=&quot;kubectl get deployment&quot;
+alias ks=&quot;kubectl get service&quot;
+alias kn=&quot;kubectl get nodes&quot;
+alias kdp=&quot;kubectl describe pod&quot;
+alias kdd=&quot;kubectl describe deployment&quot;
+alias kds=&quot;kubectl describe service&quot;
+</code></pre><h2 id="-manifest-files">▶ Manifest files</h2>
+<p>Create your own manifest files using <code>--dry-run</code> and outputting to a file:</p>
+<pre><code>kubectl run nginx \
+--image=nginx \
+--restart=Never \
+--dry-run -o yaml &gt; nginx.yml
+</code></pre><h2 id="-ask-for-help">▶ Ask for help</h2>
+<pre><code>kubectl run --help | grep kubectl
+</code></pre><h2 id="-documentation">▶ Documentation</h2>
+<p>More help available during the journey by using the documentation at <a href="https://kubernetes.io">kubernetes.io</a>.</p>
+<p>So know your way around the &lsquo;Tasks&rsquo; and &lsquo;Concepts&rsquo; section of the documentation found here:</p>
+<p><a href="https://kubernetes.io/docs/tasks">kubernetes.io/docs/tasks</a></p>
+<p><a href="https://kubernetes.io/docs/concepts">kubernetes.io/docs/concepts</a></p>
+<h2 id="-cheatsheet">▶ Cheatsheet</h2>
+<p>Get to know <code>kubectl</code> by studying the cheatsheet:</p>
+<p><a href="https://kubernetes.io/docs/reference/kubectl/cheatsheet">kubernetes.io/docs/reference/kubectl/cheatsheet</a></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://blog.lucasmac.com/tags/devops">devops</a></span><span class="tag"><a href="https://blog.lucasmac.com/tags/sre">sre</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>191 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-07-01 01:23 -0300</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://blog.lucasmac.com/posts/2020/05/printhello-world/">
+                                <span class="button__text">print(&#34;Hello, World!&#34;)</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://blog.lucasmac.com">olucasmac</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://blog.lucasmac.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://blog.lucasmac.com/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>

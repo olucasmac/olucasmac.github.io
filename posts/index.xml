@@ -1,20 +1,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Lucas M.A.C.</title>
-        <link>https://lucasmac.com/posts/</link>
-        <description>Recent content in Posts on Lucas M.A.C.</description>
+        <title>Posts on It&#39;s a me, Lucas M.A.C.</title>
+        <link>https://blog.lucasmac.com/posts/</link>
+        <description>Recent content in Posts on It&#39;s a me, Lucas M.A.C.</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 12 May 2020 12:15:40 -0300</lastBuildDate>
-        <atom:link href="https://lucasmac.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 01 Jul 2020 01:23:55 -0300</lastBuildDate>
+        <atom:link href="https://blog.lucasmac.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Kubernetes Tricks and Tips</title>
+            <link>https://blog.lucasmac.com/posts/2020/07/kubernetes-tricks-and-tips/</link>
+            <pubDate>Wed, 01 Jul 2020 01:23:55 -0300</pubDate>
+            
+            <guid>https://blog.lucasmac.com/posts/2020/07/kubernetes-tricks-and-tips/</guid>
+            <description>▶ Saving time Kubectl autocomplete BASH:
+source &amp;lt;(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first. echo &amp;quot;source &amp;lt;(kubectl completion bash)&amp;quot; &amp;gt;&amp;gt; ~/.bashrc # add autocomplete permanently to your bash shell. ZSH:
+source &amp;lt;(kubectl completion zsh) # setup autocomplete in zsh into the current shell echo &amp;quot;[[ $commands[kubectl] ]] &amp;amp;&amp;amp; source &amp;lt;(kubectl completion zsh)&amp;quot; &amp;gt;&amp;gt; ~/.zshrc # add autocomplete permanently to your zsh shell Kubectl aliases Put aliases in ~/.</description>
+            <content type="html"><![CDATA[<h2 id="-saving-time">▶ Saving time</h2>
+<h3 id="kubectl-autocomplete">Kubectl autocomplete</h3>
+<p>BASH:</p>
+<pre><code>source &lt;(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
+echo &quot;source &lt;(kubectl completion bash)&quot; &gt;&gt; ~/.bashrc # add autocomplete permanently to your bash shell.
+</code></pre><p>ZSH:</p>
+<pre><code>source &lt;(kubectl completion zsh)  # setup autocomplete in zsh into the current shell
+echo &quot;[[ $commands[kubectl] ]] &amp;&amp; source &lt;(kubectl completion zsh)&quot; &gt;&gt; ~/.zshrc # add autocomplete permanently to your zsh shell
+</code></pre><h3 id="kubectl-aliases">Kubectl aliases</h3>
+<p>Put aliases in <code>~/.zshrc</code> or <code>~/.bashrc</code>:</p>
+<pre><code>alias k=&quot;kubectl&quot;
+alias kp=&quot;kubectl get pods&quot;
+alias kd=&quot;kubectl get deployment&quot;
+alias ks=&quot;kubectl get service&quot;
+alias kn=&quot;kubectl get nodes&quot;
+alias kdp=&quot;kubectl describe pod&quot;
+alias kdd=&quot;kubectl describe deployment&quot;
+alias kds=&quot;kubectl describe service&quot;
+</code></pre><h2 id="-manifest-files">▶ Manifest files</h2>
+<p>Create your own manifest files using <code>--dry-run</code> and outputting to a file:</p>
+<pre><code>kubectl run nginx \
+--image=nginx \
+--restart=Never \
+--dry-run -o yaml &gt; nginx.yml
+</code></pre><h2 id="-ask-for-help">▶ Ask for help</h2>
+<pre><code>kubectl run --help | grep kubectl
+</code></pre><h2 id="-documentation">▶ Documentation</h2>
+<p>More help available during the journey by using the documentation at <a href="https://kubernetes.io">kubernetes.io</a>.</p>
+<p>So know your way around the &lsquo;Tasks&rsquo; and &lsquo;Concepts&rsquo; section of the documentation found here:</p>
+<p><a href="https://kubernetes.io/docs/tasks">kubernetes.io/docs/tasks</a></p>
+<p><a href="https://kubernetes.io/docs/concepts">kubernetes.io/docs/concepts</a></p>
+<h2 id="-cheatsheet">▶ Cheatsheet</h2>
+<p>Get to know <code>kubectl</code> by studying the cheatsheet:</p>
+<p><a href="https://kubernetes.io/docs/reference/kubectl/cheatsheet">kubernetes.io/docs/reference/kubectl/cheatsheet</a></p>
+]]></content>
+        </item>
         
         <item>
             <title>print(&#34;Hello, World!&#34;)</title>
-            <link>https://lucasmac.com/posts/2020/05/printhello-world/</link>
+            <link>https://blog.lucasmac.com/posts/2020/05/printhello-world/</link>
             <pubDate>Tue, 12 May 2020 12:15:40 -0300</pubDate>
             
-            <guid>https://lucasmac.com/posts/2020/05/printhello-world/</guid>
+            <guid>https://blog.lucasmac.com/posts/2020/05/printhello-world/</guid>
             <description>I’m a “computer guy”. Haha!
 Sorry, but I had to start with this.</description>
             <content type="html"><![CDATA[<p>I’m a “computer guy”. Haha!</p>
