@@ -24,7 +24,7 @@ source &amp;lt;(kubectl completion zsh) # setup autocomplete in zsh into the cur
     </item>
     
     <item>
-      <title>About</title>
+      <title>it&#39;s a me, Lucas M.A.C.</title>
       <link>https://blog.lucasmac.com/about/</link>
       <pubDate>Tue, 12 May 2020 12:20:12 -0300</pubDate>
       
