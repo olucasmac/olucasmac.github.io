@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devops on It&#39;s a me, Lucas M.A.C.</title>
+    <title>devops on Lucas M.A.C.</title>
     <link>https://blog.lucasmac.com/tags/devops/</link>
-    <description>Recent content in devops on It&#39;s a me, Lucas M.A.C.</description>
+    <description>Recent content in devops on Lucas M.A.C.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
@@ -14,10 +14,10 @@
     
     <item>
       <title>Kubernetes Tricks and Tips</title>
-      <link>https://blog.lucasmac.com/posts/2020/07/kubernetes-tricks-and-tips/</link>
+      <link>https://blog.lucasmac.com/posts/kubernetes-tricks-and-tips/</link>
       <pubDate>Wed, 01 Jul 2020 01:23:55 -0300</pubDate>
       
-      <guid>https://blog.lucasmac.com/posts/2020/07/kubernetes-tricks-and-tips/</guid>
+      <guid>https://blog.lucasmac.com/posts/kubernetes-tricks-and-tips/</guid>
       <description>▶ Saving time Kubectl autocomplete BASH:
 source &amp;lt;(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first. echo &amp;quot;source &amp;lt;(kubectl completion bash)&amp;quot; &amp;gt;&amp;gt; ~/.bashrc # add autocomplete permanently to your bash shell. ZSH:
 source &amp;lt;(kubectl completion zsh) # setup autocomplete in zsh into the current shell echo &amp;quot;[[ $commands[kubectl] ]] &amp;amp;&amp;amp; source &amp;lt;(kubectl completion zsh)&amp;quot; &amp;gt;&amp;gt; ~/.zshrc # add autocomplete permanently to your zsh shell Kubectl aliases Put aliases in ~/.</description>
